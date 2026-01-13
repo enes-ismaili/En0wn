@@ -102,12 +102,6 @@ Enumeration is key.
 
 ---
 
-## 📸 Screenshots (Optional)
-
-Screenshots of the lab setup and exploitation flow are available in the `screenshots/` directory.
-
----
-
 ## ⚠️ Disclaimer
 
 This virtual machine is intended **for educational purposes only**.  
