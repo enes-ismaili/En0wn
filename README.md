@@ -78,4 +78,4 @@ Inspired by:
 - Hack The Box – Devel
 - TCM Security Academy
 
-Created by **Diyar**
+Created by **Enes Ismaili**
