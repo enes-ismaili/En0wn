@@ -96,10 +96,6 @@ There are **2 flags** to capture:
 
 - 👑 **Root Flag:**  
   `C:\Users\Administrator\Desktop\root.txt`
-
-_No spoilers provided 😉_  
-Enumeration is key.
-
 ---
 
 ## ⚠️ Disclaimer
