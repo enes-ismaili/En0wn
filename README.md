@@ -1,131 +1,137 @@
-En0wn – Windows Privilege Escalation Lab
+# En0wn – Windows Privilege Escalation Lab
 
-En0wn is a vulnerable Windows virtual machine created as a free alternative to the Devel machine from Hack The Box.
+A vulnerable Windows virtual machine created as a **free alternative to the Devel machine from Hack The Box**, focused on Windows privilege escalation practice.
 
-I built this VM while preparing for the PNPT exam, specifically the Windows Privilege Escalation section, after realizing that the original Devel machine requires a paid subscription.
-The goal was to recreate the same learning experience and attack paths and make it available to everyone.
+---
 
-🎯 Purpose
+## 📖 Overview
 
-This machine is designed for practicing:
+**En0wn** is a vulnerable Windows VM built for learning and practicing **Windows enumeration and local privilege escalation** techniques.
 
-Windows Privilege Escalation
+I created this machine while preparing for the **PNPT exam**, specifically the **Windows Privilege Escalation** section, after realizing that the original Devel machine from Hack The Box requires a paid subscription.  
+The goal was to recreate the **same learning experience and attack paths** and make it freely available to the community.
 
-PNPT preparation
+---
 
-OSCP / OCSP-style labs
+## 🎯 Purpose
 
-Windows enumeration & exploitation
+This lab is intended for practicing:
 
-Local privilege escalation techniques
+- Windows Privilege Escalation  
+- PNPT preparation  
+- OSCP / OCSP-style labs  
+- Windows enumeration & exploitation  
+- Local privilege escalation techniques  
 
-🧪 Lab Difficulty
+---
 
-Beginner → Intermediate
+## 🧪 Difficulty
 
-🧩 Prerequisites
+**Beginner → Intermediate**
+
+---
+
+## 🧩 Prerequisites
 
 Before starting, make sure you have:
 
-VMware Workstation / Player or VirtualBox
+- VMware Workstation / Player **or** VirtualBox  
+- At least **4 GB RAM** available  
+- **10 GB** of free disk space  
+- Kali Linux or any other pentesting OS  
 
-At least 4 GB RAM available
+---
 
-10 GB of free disk space
-
-Kali Linux or any other pentesting OS
-
-📚 What You’ll Learn
+## 📚 What You’ll Learn
 
 By completing this lab, you will practice:
 
-✅ Network reconnaissance with Nmap
+- ✅ Network reconnaissance with **Nmap**
+- ✅ FTP enumeration and exploitation
+- ✅ Web shell upload techniques
+- ✅ Reverse shell handling with **Metasploit**
+- ✅ Windows privilege escalation using **MS10-015 (KiTrap0d)**
+- ✅ Post-exploitation and flag hunting
 
-✅ FTP enumeration and exploitation
+---
 
-✅ Web shell upload techniques
+## 💻 System Specifications
 
-✅ Reverse shell handling with Metasploit
+OS: Windows 7 Ultimate (Build 7600)
+Architecture: 32-bit (x86)
+Service Pack: None
+Hotfixes: None
+Web Server: Microsoft IIS 7.5
+FTP Server: Microsoft FTP Service
+Network Mode: NAT / Host-Only (192.168.x.x)
+Credentials: user / password
 
-✅ Windows privilege escalation using MS10-015 (KiTrap0d)
 
-✅ Post-exploitation and flag hunting
+---
 
-💻 System Specifications
-OS:            Windows 7 Ultimate (Build 7600)
-Architecture:  32-bit (x86)
-Service Pack:  None
-Hotfixes:      None
-Web Server:    Microsoft IIS 7.5
-FTP Server:    Microsoft FTP Service
-Network Mode:  NAT / Host-Only (192.168.x.x)
-Credentials:   user / password
+## ⚙️ Setup Instructions
 
-🖥️ Machine Details
+1. Download the VM from the link below  
+2. Import it into **VirtualBox** or **VMware**  
+3. Configure networking as **NAT** or **Host-Only**  
+4. Start the machine and begin enumeration  
 
-OS: Windows
+---
 
-Entry Point: FTP / Web
+## ⬇️ Download
 
-Focus: Local Privilege Escalation
+Due to file size limitations, the VM is hosted externally.
 
-Intended for: Practice & education only
-
-⬇️ Download
-
-The VM is hosted externally due to file size limitations.
-
-🔗 Download link (OneDrive):
+🔗 **Download link (OneDrive):**  
 👉 https://1drv.ms/u/c/0d3c80175fe24837/IQB6335j2UkxQ7FXRW-k-tzvARrv4sUkM3NtLE-fi0TOLfA?e=beEJgi
 
-Import the VM into VirtualBox or VMware.
+---
 
-⚙️ Setup Instructions
+## 🏁 Flags
 
-Download the VM from the link above
+There are **2 flags** to capture:
 
-Import it into VirtualBox / VMware
+- 🧑 **User Flag:**  
+  `C:\Users\user\Desktop\user.txt`
 
-Use NAT or Host-Only networking
+- 👑 **Root Flag:**  
+  `C:\Users\Administrator\Desktop\root.txt`
 
-Start the machine and begin enumeration
-
-🏁 Flags
-
-There are 2 flags to capture:
-
-🧑 User Flag:
-C:\Users\user\Desktop\user.txt
-
-👑 Root Flag:
-C:\Users\Administrator\Desktop\root.txt
-
-No spoilers here 😉
+_No spoilers provided 😉_  
 Enumeration is key.
 
-⚠️ Disclaimer
+---
 
-This virtual machine is intended for educational purposes only.
-Do not use the techniques learned here on systems you do not own or have explicit permission to test.
+## 📸 Screenshots (Optional)
 
-🤝 Contributions & Feedback
+Screenshots of the lab setup and exploitation flow are available in the `screenshots/` directory.
 
-If you find issues, have suggestions, or want to add:
+---
 
-Improvements
+## ⚠️ Disclaimer
 
-Writeups
+This virtual machine is intended **for educational purposes only**.  
+Do **not** use the techniques learned here on systems you do not own or have explicit permission to test.
 
-Fixes
+---
 
-Feel free to open an issue or pull request 🚀
+## 🤝 Contributions
 
-📜 Credits
+Contributions and feedback are welcome!
+
+- Bug reports  
+- Improvements  
+- Writeups  
+- Fixes  
+
+Feel free to open an **issue** or **pull request** 🚀
+
+---
+
+## 📜 Credits
 
 Inspired by:
+- Hack The Box – Devel  
+- TCM Security Academy  
 
-Hack The Box – Devel
-
-TCM Security Academy
-
-Created by Enes Ismaili
+Created by **Enes Ismaili**
